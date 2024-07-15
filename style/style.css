@@ -1,0 +1,58 @@
+:root { 
+    --bg-blue: #93B5C9; 
+    --bg-wine: #AB2849; 
+} 
+ 
+body { 
+    margin: 0;
+  } 
+ 
+.header{ 
+    width: 100%; 
+    float: left; 
+    height: 120px; 
+    background-color: var(--bg-blue); 
+} 
+ 
+.box-main { 
+    width: 100%; 
+    float: left; 
+    height: 200px; 
+    background-color: var(--bg-wine); 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    margin: 0 5px 0 5px;
+    justify-content: center;
+}
+
+.box {
+    width: 80%;
+    height: 100px;
+    background-color: var(--bg-wine);
+    margin: 10px;
+}
+
+.box-2 {
+    width: 40%;
+    height: 100px;
+    background-color: var(--bg-wine);
+    margin: 10px;
+}
+
+.footer{ 
+    width: 100%; 
+    float: left; 
+    height: 80px; 
+    background-color: var(--bg-wine); 
+    align-content: center; 
+}
